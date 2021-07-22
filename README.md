@@ -10,14 +10,14 @@
 * stop:  index to stop,  exclusive (defaults to len)
 * step:  slice by step             (defaults to 1)
 
-##### Same as list[slice(start,stop,step)]
+- Same as list[slice(start,stop,step)]
 
 [1, 2, 3][:]    → [1, 2, 3]
 [1, 2, 3][::2]  → [1, 3]
 [1, 2, 3][:1]   → [1]
 [1, 2, 3][1:]   → [2, 3]
 
-##### ★ negative indexes wrap
+- negative indexes wrap
 
 nums = list(range(0, 11))   11 elements
 nums[-5:]     → [6, 7, 8, 9, 10]
