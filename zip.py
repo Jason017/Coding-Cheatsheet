@@ -1,4 +1,3 @@
-
 print("Example 1:")
 x = [1,2,3,4,5]
 y = ['a','b','c','d']
@@ -30,11 +29,26 @@ for a,b,c in zip(*x):
     print(b)
     print(c)
 
-import numpy as np
+
 print("Example 4:")
+import numpy as np
 a = [1,2,3,4,5]
 b = (1,2,3,4,5)
 c = np.arange(5)
 d = "zhang"
 z = list(zip(a,b,c,d))
 print(z)
+
+
+print("Example 4:")
+a=[1,2,3]
+b=[4,5,6,7]
+c=[8,9,10,11,12]
+zz=list(zip(a,b,c))
+print(zz)
+
+x,y,z=zip(*zz)
+print(x)
+print(y)
+print(z)
+
