@@ -10,7 +10,7 @@ for a,b in zip(x,y):
 
 print("Example 2:")
 x = [1,2,3,4,5]
-xx = zip(x)
+xx = list(zip(x))
 print(xx)
 for a in zip(x):
     print(a)
@@ -40,15 +40,29 @@ z = list(zip(a,b,c,d))
 print(z)
 
 
-print("Example 4:")
+print("Example 5:")
 a=[1,2,3]
 b=[4,5,6,7]
 c=[8,9,10,11,12]
 zz=list(zip(a,b,c))
 print(zz)
-
 x,y,z=zip(*zz)
 print(x)
 print(y)
 print(z)
 
+
+print("Example 6:")
+data1 = [450, 500, 300, 100]
+data2 = [6,2,3,4]
+zp = sorted(list(zip(data1, data2)), key = lambda x: x[0], reverse = True)
+for k,v in enumerate(zp):
+    print(k,v)
+
+print("Output second value: ", min(zp, key=lambda x: x[0])[1])
+print("Output value: ", min(zp, key=max))
+
+print()
+zp2 = list(zip(data1, data2))
+print(zp2)
+print(min(zp2, key=min))
