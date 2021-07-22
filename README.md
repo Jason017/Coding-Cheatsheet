@@ -6,9 +6,9 @@
 
 
 * list[start:stop:step]
-  * start: index to start, inclusive (defaults to 0)
-  * stop:  index to stop,  exclusive (defaults to len)
-  * step:  slice by step             (defaults to 1)
+  1. start: index to start, inclusive (defaults to 0)
+  2. stop:  index to stop,  exclusive (defaults to len)
+  3. step:  slice by step             (defaults to 1)
 
   * Same as list[slice(start,stop,step)]
     * [1, 2, 3][:]    → [1, 2, 3]
