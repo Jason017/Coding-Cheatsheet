@@ -1,11 +1,11 @@
-### ascii character code:
-- 65: A => 90: Z
-- 97: a => 122: z 
+* ascii character code:
+ * 65: A => 90: Z
+ * 97: a => 122: z 
 
 
 
 
-### list[start:stop:step]
+* list[start:stop:step]
   * start: index to start, inclusive (defaults to 0)
   * stop:  index to stop,  exclusive (defaults to len)
   * step:  slice by step             (defaults to 1)
