@@ -59,10 +59,18 @@ zp = sorted(list(zip(data1, data2)), key = lambda x: x[0], reverse = True)
 for k,v in enumerate(zp):
     print(k,v)
 
-print("Output second value: ", min(zp, key=lambda x: x[0])[1])
-print("Output value: ", min(zp, key=max))
+print("Output second value: ", min(zp, key = lambda x: x[0])[1])
+print("Output value: ", min(zp, key = max))
 
 print()
 zp2 = list(zip(data1, data2))
 print(zp2)
 print(min(zp2, key=min))
+
+
+print("Example 7:")
+x = range(4)
+nums = [-1, 2, 1, -4]
+dct = dict(zip(x,nums))
+
+print("Convert a list to a dictionary", dct)

@@ -1,6 +1,6 @@
 import bisect
 
-def get_grade(score, cutoffs=[60, 70, 80, 90], grades="FDCBA"):
+def get_grade(score, cutoffs=[60, 70, 80, 90], grades = ['F','D','C','B','A']):
     i = bisect.bisect_right(cutoffs, score)
     return grades[i]
 

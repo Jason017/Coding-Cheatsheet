@@ -2,9 +2,6 @@
   * 65: A => 90: Z
   * 97: a => 122: z 
 
-
-
-
 * list[start:stop:step]
   1. start: index to start, inclusive (defaults to 0)
   2. stop:  index to stop,  exclusive (defaults to len)
