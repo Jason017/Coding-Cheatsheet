@@ -13,5 +13,7 @@ print("After map and join:",str_join_map)
 
 print(" cruel ".join(["hello", "world", "AHHHH!"]))
 
+print(", ".join([str(i) for i in range(5)]))
+
 
 
