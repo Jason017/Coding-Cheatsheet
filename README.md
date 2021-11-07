@@ -1,5 +1,3 @@
-Link to [My-Leetcode](https://github.com/Jason017/My-Leetcode) [Algorithm-and-Data-Structure](https://github.com/Jason017/Algorithm-and-Data-Structure)
-
 * ascii character code:
   * 65: A => 90: Z
   * 97: a => 122: z 
@@ -22,3 +20,5 @@ Link to [My-Leetcode](https://github.com/Jason017/My-Leetcode) [Algorithm-and-Da
     * nums[-5:10]   → [6, 7, 8, 9]
     * nums[:-2]     → [0, 1, 2, 3, 4, 5, 6, 7, 8]
     * nums[2:-2]    → [2, 3, 4, 5, 6, 7, 8]
+
+### Link: [My-Leetcode](https://github.com/Jason017/My-Leetcode), [Algorithm-and-Data-Structure](https://github.com/Jason017/Algorithm-and-Data-Structure)
