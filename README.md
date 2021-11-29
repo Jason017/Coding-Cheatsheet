@@ -1,6 +1,10 @@
+# My Python Cheatsheet
+
 * ascii character code:
   * 65: A => 90: Z
-  * 97: a => 122: z 
+  * 97: a => 122: z
+  * ord('a') = 97
+  * chr(97) = 'a'
 
 * list[start:stop:step]
   1. start: index to start, inclusive (defaults to 0)
@@ -21,4 +25,9 @@
     * nums[:-2]     → [0, 1, 2, 3, 4, 5, 6, 7, 8]
     * nums[2:-2]    → [2, 3, 4, 5, 6, 7, 8]
 
-### Link: [My-Leetcode](https://github.com/Jason017/My-Leetcode), [Algorithm-and-Data-Structure](https://github.com/Jason017/Algorithm-and-Data-Structure)
+[Time Complexity of Data Structure in Python](https://wiki.python.org/moin/TimeComplexity)
+[Algorithm-and-Data-Structure](https://github.com/Jason017/Algorithm-and-Data-Structure)
+
+[My-Leetcode](https://github.com/Jason017/My-Leetcode)
+[My-Interview-Questions](https://github.com/Jason017/SWE-Interview-Question-Collection)
+[My-Mock-Interview-Questions](https://github.com/Jason017/SWE-Interview-Question-Collection/My-Mock-Interview)
