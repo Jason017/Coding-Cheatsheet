@@ -25,9 +25,10 @@
     * nums[:-2]     → [0, 1, 2, 3, 4, 5, 6, 7, 8]
     * nums[2:-2]    → [2, 3, 4, 5, 6, 7, 8]
 
-[Time Complexity of Data Structure in Python](https://wiki.python.org/moin/TimeComplexity)
-[Algorithm-and-Data-Structure](https://github.com/Jason017/Algorithm-and-Data-Structure)
+* [Time Complexity of Data Structure in Python](https://wiki.python.org/moin/TimeComplexity)
 
-[My-Leetcode](https://github.com/Jason017/My-Leetcode)
-[My-Interview-Questions](https://github.com/Jason017/SWE-Interview-Question-Collection)
-[My-Mock-Interview-Questions](https://github.com/Jason017/SWE-Interview-Question-Collection/My-Mock-Interview)
+* [Algorithm-and-Data-Structure](https://github.com/Jason017/Algorithm-and-Data-Structure)
+
+* [My-Leetcode](https://github.com/Jason017/My-Leetcode)
+* [My-Interview-Questions](https://github.com/Jason017/SWE-Interview-Question-Collection)
+* [My-Mock-Interview-Questions](https://github.com/Jason017/SWE-Interview-Question-Collection/tree/main/My-Mock-Interview)
