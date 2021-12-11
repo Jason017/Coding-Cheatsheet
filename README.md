@@ -26,7 +26,7 @@
     * nums[2:-2]    → [2, 3, 4, 5, 6, 7, 8]
 
 * [Time Complexity of Data Structure in Python](https://wiki.python.org/moin/TimeComplexity)
-
+* [Complexity of Python Operations](https://www.ics.uci.edu/~pattis/ICS-33/lectures/complexitypython.txt)
 * [Algorithm-and-Data-Structure](https://github.com/Jason017/Algorithm-and-Data-Structure)
 
 * [My-Leetcode](https://github.com/Jason017/My-Leetcode)
