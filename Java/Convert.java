@@ -21,6 +21,6 @@ public class Convert {
         list3.add(7);
         // nums = list3.toArray() will cause incompatible error:
         // incompatible types: Object[] cannot be converted to Integer[]
-        System.out.println(list3.toArray());
+        System.out.println(list3.toArray(new Integer[list3.size()]));
     }
 }
