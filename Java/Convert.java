@@ -22,5 +22,24 @@ public class Convert {
         // nums = list3.toArray() will cause incompatible error:
         // incompatible types: Object[] cannot be converted to Integer[]
         System.out.println(list3.toArray(new Integer[list3.size()]));
+
+        // converting the String to a Array/List of characters,
+        // has a cost of O(n), because we are adding n characters
+        // to the end of a Array/List
+        String s = "leetcodeee";
+        char[] chars = s.toCharArray();
+
+        List<String> strList = new ArrayList<>();
+        StringBuilder sb = new StringBuilder();
+        sb.append(chars[0]);
+        for (int i = 1; i < chars.length; i++) {
+            if (chars[i] != chars[i - 1]) {
+                strList.add(sb.toString());
+                sb = new StringBuilder();
+            }
+            sb.append(chars[i]);
+        }
+        strList.add(sb.toString());
+        System.out.println(strList);
     }
 }

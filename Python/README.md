@@ -1,5 +1,9 @@
 # My Python Cheatsheet
 
+* built-in functions sort in python
+  * list.sort(): O(Nlog(N)) O(1)
+  * sorted(list): O(Nlog(N)) O(log(N))
+
 * ascii character code:
   * 65: A => 90: Z
   * 97: a => 122: z
