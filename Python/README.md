@@ -1,8 +1,16 @@
 # My Python Cheatsheet
 
-* built-in functions sort in python
+* list time complexity:
+  * list.pop(): O(1)
+  * list.pop(0): O(N)
   * list.sort(): O(Nlog(N)) O(1)
   * sorted(list): O(Nlog(N)) O(log(N))
+
+* hashmap time complexity:
+  * map.remove(): O(1)
+  * map.pop(): O(1)
+  * map.size(): O(1)
+  * map.values(): O(N)
 
 * ascii character code:
   * 65: A => 90: Z
